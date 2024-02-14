@@ -2,75 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-   
-    <title>Devlinks</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-
-        }
-        body{
-            height:100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .container{
-            display: flex;
-            flex-direction: column;
-            width:396px;
-            height: 400px;
-            padding: 12px, 16px, 12px, 16px;
-            border-radius: 8px;
-            border: 1px;
-            gap: 12px;
-
-
-        }
-        input{
-            margin: 5px 0px;
-            height:35px;
-            padding:7px;
-
-        }
-        
-        button{
-            height:35px;
-            margin:5px 0px;
-            
-            background: #633CFF;
-            border:none;
-            border-radius: 5px;
-            color:rgb(20, 19, 19);
-
-        }
-        button:hover{
-            background: color #333;
-            background: #633CFF;
-
-        }
-    </style>
-    
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link href="mari55.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div class="maintext"> 
+        <h1>devlinks</h1>
     
-    <div class="container">
-        
-        <h1> Creae account</h1>
-        <a>Let’s get you started sharing your links!</a>
+    
+        <div class="maincontainertwo">
 
-        <input type="email"
-        placeholder="email">
-        <input type="password"
-        placeholder="password">
-        <button>login</button>
+            <h1>Create account</h1>
+            <p>Let’s get you started sharing your links!</p>
+            <h3> Email address</h3>
+            <div class="container">
+                
+                <input type="email"
+                placeholder="e.g. alex@email.com">
+                <h3> Create password</h3>
+                <input type="password"
+                placeholder="At least 8 characters">
+                <h3> Confirm password</h3>
+                <input type="password"
+                placeholder="At least 8 characters">
+                <h3>Password must contain at least 8 characters </h2>
+                 <div> <button >Create new account</button> </div>
+                 <b>Already have an account? <a href="">Login</a></b>
+               
+            </div>
+           
+        </div>
         
-    </div> 
-    
-    
+    </div>
 </body>
 </html>
